@@ -49,7 +49,7 @@ class InstagramBot:
         driver.get("https://www.instagram.com/stories/"+view_stor+ "/")
         time.sleep(2)
         
-LucasIG=InstagramBot('lestudo33','imac88246948')
+LucasIG=InstagramBot('Your_Account','Your_password')
 LucasIG.login()
 LucasIG.like_photos('newyork')
 hashtags=['amazing','beautiful','adventure']
