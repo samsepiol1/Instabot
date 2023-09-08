@@ -8,7 +8,7 @@ class InstagramBot:
         self.password= password
         self.driver= webdriver.Chrome('')
     def closerBrowser(self):
-        self.driver.closr()
+        self.driver.close()
     def login(self):
         driver= self.driver
         driver.get("https://www.instagram.com/")
